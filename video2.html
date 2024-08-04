@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1> Video Collection</h1>
+    </header>
+    <div class="container my-5">
+        <section id="video-list">
+            <h2 class="mb-4">Videos</h2>
+            <ul id="videos" class="list-unstyled row">
+                <li>
+                    <video width="560" height="315" controls>
+                        <source src="C:\Users\HP\Downloads\Default.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </li>
+                <!-- Videos will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="add-video" class="mt-5">
+            <h2 class="mb-4">Add a Video</h2>
+            <form id="video-form" class="row g-3">
+                <div class="col-md-8">
+                    <input type="text" id="video-url" class="form-control" placeholder="Enter YouTube URL">
+                </div>
+                <div class="col-md-8">
+                    <input type="file" id="video-file" class="form-control" accept="video/*">
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary w-100">Add Video</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; Video Collection</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
