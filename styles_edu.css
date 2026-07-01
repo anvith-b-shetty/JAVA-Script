@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    color: #343a40;
+}
+
+#video-form {
+    margin-bottom: 30px;
+}
+
+#upload-progress {
+    margin: 20px 0;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+#search-bar {
+    margin: 20px 0;
+}
+
+.card {
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body iframe, .card-body video {
+    margin-bottom: 15px;
+}
+
+.card-body h5 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.remove-video {
+    margin-top: 10px;
+}
+
+#notifications .alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    #videos .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}

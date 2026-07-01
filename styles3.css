@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#video-list {
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+button.remove-video, button.save-later {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.alert {
+    margin-top: 20px;
+}

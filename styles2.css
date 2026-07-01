@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+button.remove-video {
+    margin-top: 1rem;
+}

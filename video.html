@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Collection</title>
+    <link rel="stylesheet" href="styles 2.css">
+</head>
+<body>
+    <header>
+        <h1> Video Collection</h1>
+    </header>
+    <section id="video-list">
+        <h2>Videos</h2>
+        <ul id="videos" class="list-unstyled row">
+            <li>
+                <video width="560" height="315" controls>
+                    <source src="C:\Users\HP\Downloads\Default.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </li>
+            <!-- Videos will be dynamically added here -->
+        </ul>
+    </section>
+    <section id="add-video">
+        <h2>Add a Video</h2>
+        <form id="video-form">
+            <input type="text" id="video-url" placeholder="Enter YouTube URL"><br><br>
+            <input type="file" id="video-file" accept="video/*"><br><br>
+            <button type="submit">Add Video</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy;Video Collection</p>
+    </footer>
+    <script src="script 2.js"></script>
+</body>
+</html>
